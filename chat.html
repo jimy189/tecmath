@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>TecMath</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <style>
+        /* Chat containers */
+        
+        .tec {
+            border: 2px solid #dedede;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        /* Darker chat container */
+        
+        .tec {
+            border-color: #ccc;
+            background-color: #ddd;
+        }
+        /* Clear floats */
+        
+        .tec::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        /* Style images */
+        
+        .tec img {
+            float: left;
+            max-width: 60px;
+            width: 100%;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        /* Style the right image */
+        
+        .tec img.right {
+            float: right;
+            margin-left: 20px;
+            margin-right: 0;
+        }
+        /* Style time text */
+        
+        .time-right {
+            float: right;
+            color: #aaa;
+        }
+        /* Style time text */
+        
+        .time-left {
+            float: left;
+            color: #999;
+        }
+        
+        /
+    </style>
+</head>
+
+<body>
+
+    <nav class="nav-wrapper grey">
+
+
+
+        <div class="nav-wrapper container text-black">
+            <a href="#" class="brand-logo center">Tecmath</a>
+            <ul class="left hide-on-med-and-down">
+                <li><a href="homepage.html"><span class="black-text">Início</a></li>
+                </span>
+                <li>
+                    <li><a href="perfil.html"><span class="black-text">Perfil</a></li>
+                    </span>
+                    <li>
+                        <a href="chat.html"><span class="black-text">Chat</a></li>
+                    </span>
+                </li>
+                <li>
+                    <a href="login.html"><span class="black-text">Login</a></li>
+                </span>
+                </li>
+            </ul>
+
+
+            <ul id="nav-mobile" class="sidenav">
+
+
+                <li><a href="perfil.html">Página Inicial</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">more_vert</i></a>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
+        <div class="row ">
+            <div class="collection">
+                <a href="#!" class="collection-item"><span class="badge">1</span>Rodrigues</a>
+                <a href="#!" class="collection-item"><span class="new badge">4</span>Oliveira</a>
+                <a href="#!" class="collection-item">Mateus</a>
+                <a href="#!" class="collection-item"><span class="badge">14</span>Jorge</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="tec">
+            <img src="img/programador 1.jpg" alt="Avatar">
+            <p>Hello. How are you today?</p>
+            <span class="time-right">11:00</span>
+        </div>
+
+        <div class="tec darker">
+            <img src="img/programador 3.jpg" alt="Avatar" class="right">
+            <p>Hey! I'm fine. Thanks for asking!</p>
+            <span class="time-left">11:01</span>
+        </div>
+
+        <div class="tec">
+            <img src="img/programador 1.jpg" alt="Avatar">
+            <p>Sweet! So, what do you wanna do today?</p>
+            <span class="time-right">11:02</span>
+        </div>
+
+        <div class="tec darker">
+            <img src="img/programador 3.jpg" alt="Avatar" class="right">
+            <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
+            <span class="time-left">11:05</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">textsms</i>
+                        <input type="text" id="autocomplete-input" class="autocomplete">
+                        <label for="autocomplete-input">Autocomplete</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script type="text/javascript" src="tcal.js"></script>
+    <script>
+        // Or with jQuery
+
+        $(document).ready(function() {
+            $('.tabs').tabs();
+        });
+        // Or with jQuery
+
+        $(document).ready(function() {
+            $('.modal').modal();
+        });
+    </script>
+
+
+</body>
+
+</html>

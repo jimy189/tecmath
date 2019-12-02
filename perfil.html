@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>TecMath</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <nav class="nav-wrapper grey">
+
+
+
+        <div class="nav-wrapper container text-black">
+            <a href="#" class="brand-logo center">Tecmath</a>
+            <ul class="left hide-on-med-and-down">
+                <li><a href="homepage.html"><span class="black-text">Início</a></li>
+                </span>
+                <li>
+                    <li><a href="perfil.html"><span class="black-text">Perfil</a></li>
+                    </span>
+                    <li>
+                        <a href="chat.html"><span class="black-text">Chat</a></li>
+                    </span>
+                </li>
+                <li>
+                    <a href="login.html"><span class="black-text">Login</a></li>
+                </span>
+                </li>
+            </ul>
+
+
+            <ul id="nav-mobile" class="sidenav">
+
+
+                <li><a href="perfil.html">Página Inicial</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">more_vert</i></a>
+        </div>
+    </nav>
+
+    <br> <br>
+    <div class="container">
+        <div class="row">
+            <div class=" col s6 m6 l6 white">
+                <h4>Perfil</h4>
+                <table>
+                    <thead>
+
+                        <tr>
+                            <th>NOME: Marcelo Oliveira</th>
+                        </tr>
+                    </thead>
+
+                    <thead>
+
+                        <tr>
+                            <th>Celular: 9999-9999</th>
+                        </tr>
+                    </thead>
+
+                    <thead>
+
+                        <tr>
+                            <th>Telefone: 8888-8888</th>
+                        </tr>
+                    </thead>
+
+                    <thead>
+
+                        <tr>
+                            <th>Email: Marcelo.Oliveira@gmail.com</th>
+                        </tr>
+                    </thead>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <div class=" col s6 m6 l6">
+                    <img src="img/programador 1.jpg" class="responsive-img">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 ">
+                    <div class="card white darken-1">
+                        <div class="card-content white-text">
+                            <div class="carousel carousel-slider center">
+                                <div class="carousel-fixed-item center">
+                                    <a class="btn waves-effect white grey-text darken-text-2">Mudar Codigo-Fonte</a>
+                                </div>
+                                <div class="carousel-item red white-text" href="#one!">
+                                    <img src="img/codigo-fonte.jpg" class="responsive-img">
+                                </div>
+
+                                <div class="carousel-item amber white-text" href="#two!">
+                                    <img src="img/codigo-fonte.jpg" class="responsive-img">
+                                </div>
+
+                                <div class="carousel-item blue white-text" href="#four!">
+                                    <img src="img/codigo-fonte.jpg" class="responsive-img">
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <a class="modal-trigger " href="#modal2 "><span class="black-text ">Vizualizar</span></a>
+                                <a href="homepage.html" "><span class="black-text ">Voltar</span></a>
+                                <a class="modal-trigger " href="#modal1 " ><span class="black-text ">Logout</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    </div>
+               <!-- Modal Structure-->
+        <div id="modal1 " class="modal ">
+                <div class="modal-content ">
+                    <h4>Sair da Conta</h4>
+                  <p>Tem Certeza disso?</p>
+                </div>
+                <div class="modal-footer ">
+                        <a href="#! " class="modal-close waves-effect waves-green btn-flat ">Cancelar</a>
+                    <a href="#! " class="modal-close waves-effect waves-green btn-flat ">Confirmar</a>
+                </div>
+                 </div>
+        
+            </div>
+    
+            <div id="modal2 " class="modal ">
+                    <div class="modal-content ">
+                        <h4>Todo Codigo-fonte</h4>
+                        <img src="img/codigo-fonte.jpg " class="responsive-img ">
+                    </div>
+                    <div class="modal-footer ">
+                        <a href="#! " class="modal-close waves-effect waves-green btn-flat ">Voltar</a>
+                    </div>
+                     </div>
+            
+                </div>
+
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+        <script src="js/materialize.js "></script>
+        <script src="js/init.js "></script>
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+        <script src="js/materialize.js "></script>
+        <script src="js/init.js "></script>
+        <script type="text/javascript " src="tcal.js "></script>
+        <script>
+            // Or with jQuery
+
+            $(document).ready(function() {
+                $('.tabs').tabs();
+            });
+            // Or with jQuery
+
+            $(document).ready(function() {
+                $('.modal').modal();
+            });
+
+
+            $(document).ready(function() {
+                $('.datepicker').datepicker();
+            });
+            // Or with jQuery
+
+            $(document).ready(function() {
+                $('.tooltipped').tooltip();
+            });
+
+            document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.parallax');
+                var instances = M.Parallax.init(elems, options);
+            });
+
+            // Or with jQuery
+
+            $(document).ready(function() {
+                $('.parallax').parallax();
+            });
+
+            document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.carousel');
+                var instances = M.Carousel.init(elems, options);
+            });
+
+            // Or with jQuery
+
+            $(document).ready(function() {
+                $('.carousel').carousel();
+            });
+        </script>
+
+</body>
+
+</html>
